@@ -1,0 +1,23 @@
+{
+  "name": "ethereumbot",
+  "version": "1.0.0",
+  "description": "A sample bot created following https://betterprogramming.pub/how-to-create-an-ethereum-bot-55aac7534654 . How to Create an Ethereum Bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/springzh/EthereumBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/springzh/EthereumBot/issues"
+  },
+  "homepage": "https://github.com/springzh/EthereumBot#readme",
+  "dependencies": {
+    "ethers": "^5.6.2"
+  }
+}
