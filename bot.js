@@ -30,8 +30,8 @@ const privateKeys =
 ];
 
 const bot = async () => {
-    provider.on("block", async () => {
-      console.log("Listening new block, waiting...");
+    provider.on("block", async (blockNumber) => {
+      console.log("New block minted: " + blockNumber);
       for (let i = 0; i < privateKeys.length; i++) {
         const _target = new ethers.Wallet(privateKeys[i]);
         const target = _target.connect(provider);
@@ -52,6 +52,7 @@ const bot = async () => {
           }
         }
       }
+      console.log("Listening new block, waiting...");
     });
   }
   
