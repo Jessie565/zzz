@@ -1,6 +1,6 @@
 const { ethers } = require("ethers");
 
-const ALCHEMY_API_KEY_URL="https://speedy-nodes-nyc.moralis.io/81b0a6155f9a7a74e1650031/eth/rinkeby"
+const ALCHEMY_API_KEY_URL="https://speedy-nodes-nyc.moralis.io/81b0a6155f9a7a74e1650031/bsc/mainnet"
 
 const provider = new ethers.providers.JsonRpcProvider(ALCHEMY_API_KEY_URL);
 //const addressReceiver = "0xdd2f13bCE3F6ccb285162Aa3722B37608b9cbEE0"; //springtest3
