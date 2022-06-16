@@ -4,10 +4,11 @@ const ALCHEMY_API_KEY_URL="https://eth-rinkeby.alchemyapi.io/v2/NhcHGWhtRtJoH4Pw
 
 const provider = new ethers.providers.JsonRpcProvider(ALCHEMY_API_KEY_URL);
 //const addressReceiver = "0xdd2f13bCE3F6ccb285162Aa3722B37608b9cbEE0"; //springtest3
-const addressReceiver = "0x6702da5559DCf41C16760F667A0c81A5cF8ff012"; //spring test account2
+const addressReceiver = "0x0814d48edA9A910B6d16759dB5E6142f2Be57C2A"; //spring test account2
 
 const privateKeys =
 ["0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
+"0xb7311869888449305ebd3801e9101601b6cb737c303208926a6b0efdfcf9ce75",
 "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d",
 "0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a",
 "0x7c852118294e51e653712a81e05800f419141751be58f605c371e15141b007a6",
